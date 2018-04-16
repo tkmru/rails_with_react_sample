@@ -29,6 +29,7 @@ $ foreman start
   - [chancancode/json_expressions: JSON matchmaking for all your API testing needs.](https://github.com/chancancode/json_expressions)
   - [guard/guard-rspec: Guard::RSpec automatically run your specs (much like autotest)](https://github.com/guard/guard-rspec)
   - [guard/guard-rubocop: Guard plugin for RuboCop](https://github.com/guard/guard-rubocop)
+  - [guard/guard-brakeman: Guard::Brakeman allows you to automatically run Brakeman tests when files are modified.](https://github.com/guard/guard-brakeman)
 
 
 ### frontend
@@ -39,7 +40,7 @@ $ foreman start
 - turbolinks
 
 
-# LICENCE
+## LICENCE
 "THE BEER-WARE LICENSE" (Revision 42):
 [tkmru (@tkmru)](https://github.com/tkmru) wrote this file. As long as you retain this notice you
 can do whatever you want with this stuff. If we meet some day, and you think

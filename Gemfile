@@ -56,6 +56,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'guard-rspec'
   gem 'guard-rubocop'
+  gem 'guard-brakeman'
 end
 
 group :test do
