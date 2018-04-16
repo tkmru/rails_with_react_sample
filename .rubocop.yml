@@ -1,0 +1,37 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'vendor/**/*'
+    - 'Guardfile'
+    - 'Rakefile'
+    - 'db/schema.rb'
+    - 'db/migrate/**'
+    - 'config/initializers/*.rb'
+    - 'config/environments/*.rb'
+    - 'config/application.rb'
+    - 'config/deploy.rb'
+    - 'config/unicorn/**'
+    - 'spec/spec_helper.rb'
+    - 'db/seeds.rb'
+    - 'db/seeds_admin.rb'
+    - 'bin/**/*'
+    - 'spec/api/**/*'
+    - 'spec/steps/**/*'
+ClassAndModuleChildren:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/RegexpLiteral:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  Max: 130
+Metrics/ClassLength:
+  Max: 130
+MethodLength:
+  Max: 15
+Rails/HasAndBelongsToMany:
+  Enabled: false
