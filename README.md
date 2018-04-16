@@ -1,7 +1,7 @@
-# Rails Application with React Template
+# Rails Application with React Sample
 
-##Requirements
-This template currently works with:
+## Requirements
+This sample currently works with:
 
 - Rails 5.2.x
 - PostgreSQL
