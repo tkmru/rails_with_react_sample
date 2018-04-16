@@ -1,24 +1,25 @@
-# README
+# Rails Application with React Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Requirements
+This template currently works with:
 
-Things you may want to cover:
+- Rails 5.2.x
+- PostgreSQL
+- yarn
 
-* Ruby version
+## Usage
 
-* System dependencies
+```
+# in root dir
+$ bundle install
+$ yarn install
+$ foreman start
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## What is included?
+### frontend
+- font-awesome
+- normalize.css
+- rails-ujs
+- react
+- turbolinks
